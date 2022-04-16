@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_marginStart="16dp"
+    android:outlineProvider="none"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="110dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" >
+
+            <ImageView
+                android:id="@+id/img_thumbnail_yt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:src="@drawable/icon_kol"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_play"
+                android:backgroundTint="@color/cg_notification_warning"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_title_yt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ellipsize="end"
+            android:textAlignment="center"
+            android:maxLines="2"
+            android:text="Cara Menghitung Panjang Rusuk Kubus Jika Diketahui Volume" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Berempah Riah</string>
+    <string name="nav_video">Video</string>
+    <string name="nav_calc">Calculator</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_game">Game</string>
+    <string name="nav_setting">Setting</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test_bottom">TestBottomActivity</string>
+    <string name="title_home">Bermpah Riyah</string>
+    <string name="title_video">Video</string>
+    <string name="title_game">Game</string>
+    <string name="title_activity_bottom_nav_test">BottomNavTestActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+</resources>
